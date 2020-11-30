@@ -93,7 +93,6 @@ PyYAML==5.3.1
 pyzmq==19.0.2
 QDarkStyle==2.8.1
 QtPy==1.9.0
-Rtree==0.9.4
 ruamel-yaml==0.15.87
 s3transfer==0.3.3
 scikit-image==0.17.2
