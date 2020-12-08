@@ -9,9 +9,9 @@ st.subheader('Use AI to automatically colorize your black and white photos.')
 
 # load our serialized black and white colorizer model and cluster
 # center points from disk
-prototxt = './model/colorization_deploy_v2.prototxt'
-model = './model/colorization_release_v2.caffemodel'
-points = './model/pts_in_hull.npy'
+prototxt = 'model/colorization_deploy_v2.prototxt'
+model = 'model/colorization_release_v2.caffemodel'
+points = 'model/pts_in_hull.npy'
 
 uploaded_file = st.file_uploader("Choose an image..")
 
